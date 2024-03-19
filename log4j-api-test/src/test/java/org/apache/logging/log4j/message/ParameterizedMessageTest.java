@@ -197,5 +197,4 @@ class ParameterizedMessageTest {
         final String message = ParameterizedMessage.format(pattern, args);
         assertThat(message).isEqualTo("Test message a-b {}");
     }
-
 }
